@@ -1,0 +1,15 @@
+# Excluir archivos compilados, de respaldo y de swap
+*.o
+*.obj
+*.swo
+*.swp
+*.un~
+*.~
+programa
+suma
+input
+calc
+
+# Excluir cualquier otro archivo que no sea código fuente
+!*.asm
+!*.inc
